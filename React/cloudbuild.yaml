@@ -1,0 +1,13 @@
+steps:
+# Build the container image
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/react-ms-348115/react-ms', '.']
+# Push the container image to Container Registry
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/react-ms-348115/react-ms']
+# Deploy container image to Cloud Run
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: gcloud
+  args: ['run', 'deploy', 'react-ms', '--image', 'gcr.io/react-ms-348115/react-ms', '--region', 'us-central1', '--platform', 'managed','--port','3000']
+images:
+- gcr.io/react-ms-348115/react-ms
