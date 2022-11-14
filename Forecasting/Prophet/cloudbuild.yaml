@@ -1,0 +1,14 @@
+steps:
+# Build the container image
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/fbprophet-ms/fbprophet-ms', '.']
+# Push the container image to Container Registry
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/fbprophet-ms/fbprophet-ms']
+# Deploy container image to Cloud Run
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: gcloud
+  args: ['run', 'deploy', 'fbprophet-ms', '--image', 'gcr.io/fbprophet-ms/fbprophet-ms', '--region', 'us-central1', '--platform', 'managed','--port','8081']
+images:
+- gcr.io/fbprophet-ms/fbprophet-ms
+timeout: 20000s

@@ -1,0 +1,14 @@
+steps:
+# Build the container image
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/lstm-ms-348115/lstm-ms', '.']
+# Push the container image to Container Registry
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/lstm-ms-348115/lstm-ms']
+# Deploy container image to Cloud Run
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: gcloud
+  args: ['run', 'deploy', 'lstm-ms', '--image', 'gcr.io/lstm-ms-348115/lstm-ms', '--region', 'us-central1', '--platform', 'managed','--port','8080']
+images:
+- gcr.io/lstm-ms-348115/lstm-ms
+timeout: 20000s

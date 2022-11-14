@@ -1,0 +1,10 @@
+flask
+pandas
+numpy
+matplotlib
+# cython
+pystan==2.19.1.1
+prophet
+sklearn
+google-cloud-storage
+flask-cors

@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "fbprophet-forecast",
+    "private_key_id": "03ef9f6179806f956273bd5260df6050436ce422",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCnXNtgpMVa9IZL\n8LhH6sjoTwzeXsK/ZGPYoh9BXTCHU91m8dfBQlrUa0p876aGM+pN32V7DqDD/FFL\n8dpbwaKeB7bOuQbeGAWS2bXSw7OqaoXE7gCq3Dk7fXbZGi7DBpIeMsv8HkxqtRcb\nC/N9QfGfK6xzNNvq06b69BEMFygBzRjH/bHlFZrFJl6Tjjem4Abj4L3caPOWbwQI\nL5AXjL1dRxktO12DFCZlqcH+Az8CR/+ze3oPZETFfx8YFHTEgZ/0dP76A0b8Jkd4\nvvFlRN9gomGxykBhZkpakTt9Fm6z+F2O4T0pNkKk16bBOl4tC2nn47JdJnf7ergJ\n6uigmcYNAgMBAAECggEAEQ+1SYfimqAc5Lb4glRcANq2LCEq50n7p8T3PLmcTd9t\nzaXP4eK60bbSVCQ2LK40L5YbiUz3dKNPQle4c+wsgMG2kCJqoc9/GfZZw8+xjCjp\n1CaTKNfkeb0TlZRGuhj8Ylm5U81e6u3lGhvAyb8kO56/KMt1s925wxGIf1wI9w3g\nSdHaXD9MQ3YfG8khlSpMCxYW+LcPO8k+M9FFnCoEKYDWVMQi6gkJrseD46dnU1Yx\nzonIYfxFCFbDIUEEmRBYDH4Qy3HE+gokbdLRUuBCEJbtIUbJMOlNcxQ0rLC3dBYQ\nFFZwjGGgi/RWYy8pL2YZG41WeNZ9+y9LD9ilTyszXQKBgQDQAG/NZm9R6XdiUYEa\nc/b7HqMsgHGxCVE1+pLbKc4ooOMdsgie5dZFPo/JbJKcLDpWYGzDNQ7BCFxrppcT\n3FGL5nW3PrOMPioL2pegLYcuWx5b7HU3c27TYtJU7C5fEEalSpcx+pMDJC0lEGjQ\nslXlqmbYa730z/fyvnFrVrU+BwKBgQDN+7L6I+0w4Wqa27IYeXUqXx5zodsjBZGZ\n5oxd+CSR6zb3KqL9N/hYBV/WMNR+GXjx/CFqkkWcstYCalGWUZBAUVrsyNDhy4uP\npk5H13b/bNvRpq5pdpafTTULFjLQMWlLC9PWlDYB3Zc4QRA54x0bpYDCQYghoC1t\nislWXXQWSwKBgG8VTKAtbJYaUR+413IBLI3ANvS1RAKAL1bck0FoeilIgwKA6gmy\nRVSFrNStnz64gA9RP8SguVht1q3HMjfxGbvVQFi0q77iFCJwgzmQFvmyv+vnxFHw\n2+cYh6vC1qD+WDw+MbEHWSv8Tf/VW6TZGPamonZCVBhCWPDStE/W5sRRAoGBAKVz\ndCpp6x5lIbzrlN0Fyi/ToWEd9CfoVDB7N+pO5Aj1Fvxnme2tJGSHRJiGNlhnW3d7\nnte8T//yweXEwm3sa+LNtiwVjXqghSRIX/5iummmZda7fMKnh4rDeETEeuIxnjKy\neGCWQd8zv0BnOoJUw8+uG4NtIcxonbSsUtZ1UEaLAoGAZ4Ojka9nnuqlSGOqYWrr\nItcOFnYQXba9Vl7Hz9UXWGXX8hNq6UnBCGroE8Kw13L+OnopR+N3SgpIsrT+AsQR\nF885iruLnB95h3ZUHa+VgftP6wI1Ep6gqObw7y3HPOyuwT/i0XMOeKbLpi8yIgPU\nMHhEmUrAcI7k8y2609X8Uzw=\n-----END PRIVATE KEY-----\n",
+    "client_email": "fbprophet@fbprophet-forecast.iam.gserviceaccount.com",
+    "client_id": "105224985267146868525",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fbprophet%40fbprophet-forecast.iam.gserviceaccount.com"
+  }
